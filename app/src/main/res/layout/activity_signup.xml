@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Signup">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Txt_Reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registro"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="@color/Gris"
+                android:layout_gravity="center"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:helperText="Obligatorio*"
+                app:helperTextTextColor="@color/Verde_Cian"
+                app:endIconMode="clear_text"
+                android:id="@+id/till_Dom"
+                style="@style/outlinedTextInputLayout2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ET_Reg_Dom"
+                    android:hint="Domicilio"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:helperText="Obligatorio*"
+                app:helperTextTextColor="@color/Verde_Cian"
+                app:endIconMode="clear_text"
+                android:id="@+id/till_Numtel"
+                style="@style/outlinedTextInputLayout2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ET_Reg_Numtel"
+                    android:inputType="phone"
+                    android:hint="Numero de telefono"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:helperText="Obligatorio*"
+                app:helperTextTextColor="@color/Verde_Cian"
+                app:endIconMode="clear_text"
+                android:id="@+id/till_Username"
+                style="@style/outlinedTextInputLayout2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ETReg_Usu"
+                    android:hint="Usuario"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:helperText="Obligatorio*"
+                app:helperTextTextColor="@color/Verde_Cian"
+                app:endIconMode="clear_text"
+                android:id="@+id/till_email"
+                style="@style/outlinedTextInputLayout2">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ETReg_Email"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:helperText="Obligatorio*"
+                app:helperTextTextColor="@color/Verde_Cian"
+                android:id="@+id/till_Pass1"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/Gris"
+                style="@style/outlinedTextInputLayout2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ETReg_Pass1"
+                    android:inputType="textPassword"
+                    android:hint="Contraseña"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                app:helperText="Obligatorio*"
+                app:helperTextTextColor="@color/Verde_Cian"
+                android:id="@+id/till_Pass2"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/Gris"
+                style="@style/outlinedTextInputLayout2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ETReg_Pass2"
+                    android:inputType="textPassword"
+                    android:hint="Repita la contraseña"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registar"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:background="@color/Verde_Cian"
+                android:clickable="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/Inicio_ses"
+                android:layout_marginTop="30dp"
+                android:text="¿Ya eres usuario? Inicia sesion"
+                android:textSize="18sp"
+                android:focusable="true"
+                android:textColor="@color/Verde_Cian"
+                android:textStyle="bold"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
+

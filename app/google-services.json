@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "166165287134",
+    "project_id": "rescuephone-21425",
+    "storage_bucket": "rescuephone-21425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166165287134:android:caa81417f7fc7c7870f24f",
+        "android_client_info": {
+          "package_name": "com.example.rescuephone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166165287134-q8k16gqd4910rlmulkpajvc6hlhfdkb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFgepqdGQMXcfIUAI-comnrz7B7cz2AOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166165287134-dumkvn6m4smedjclv64rq3837tl38ijv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

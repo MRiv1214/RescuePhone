@@ -1,0 +1,44 @@
+<resources>
+    <string name="bienv">Bienvenidos</string>
+    <string name="MN">Menú</string>
+    <string name="u">Usuario</string>
+    <string name="con">Contraseña</string>
+    <string name="ing">Ingresar</string>
+    <string name="style">Style</string>
+    <string name="phone">Phone</string>
+    <string name="AgrDisp">Agregar Dispositivo</string>
+    <string name="VrDisp">Ver dispositivos</string>
+    <string name="EditDisp">Editar Dispositivo</string>
+    <string name="ElimDisp">Eliminar Dispositivos</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+    <string name="app_name">StylePhone</string>
+    <string name="Nuevo">NUEVO</string>
+    <string name="Guardar">GUARDAR</string>
+    <string name="AgrDispo">Agregar Dispositivo</string>
+    <string name="NomClien">Nombre Cliente:</string>
+    <string name="NomEquip">Nombre del equipo:</string>
+    <string name="Telefono">Teléfono:</string>
+    <string name="Falla">Falla:</string>
+    <string name="FechaExp">Fecha de expidición:</string>
+    <string name="ApertPPYT">Apertura por pantalla y/o tapa:</string>
+    <string name="ReparRie">Reparación riesgosa</string>
+    <string name="Fun">Funda:</string>
+    <string name="SIM">SIM:</string>
+    <string name="MicSd">MicroSD:</string>
+    <string name="Tot">Total:</string>
+    <string name="inf">Infromacion del dispositivo</string>
+    <string name="gc">GUARDAR CAMBIOS</string>
+
+    <string name="MP">Menú Principal</string>
+
+    <string-array name="Dis">
+        <item>Celular</item>
+        <item>Tablet</item>
+        <item>Laptop</item>
+    </string-array>
+    <string-array name="Gen">
+        <item>Femenino</item>
+        <item>Masculino</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

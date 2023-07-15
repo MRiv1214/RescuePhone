@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="outlinedTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/Gris</item>
+        <item name="hintTextColor">@color/Gris</item>
+        <item name="android:textColorHint">@color/Gris</item>
+    </style>
+    <style name="outlinedTextInputLayout2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/Gris</item>
+        <item name="hintTextColor">@color/Gris</item>
+        <item name="android:textColorHint">@color/Gris</item>
+    </style>
+
+</resources>
